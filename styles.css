@@ -1,1 +1,67 @@
 /* your code here */
+/* styles.css */
+
+/* Footer Styles */
+footer {
+  background-color: #262626;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-details {
+  display: flex;
+  align-items: center;
+}
+
+.logo_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.media-icons a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex-basis: 50%;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none
