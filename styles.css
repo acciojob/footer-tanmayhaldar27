@@ -1,67 +1,40 @@
 /* your code here */
-/* styles.css */
-
-/* Footer Styles */
-footer {
-  background-color: #262626;
-  color: #ffffff;
-  padding: 30px 0;
+footer{
+	background-color:black;
+	color:white;
+	box-sizing:border-box;
 }
-
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+.logo-detail, .top, .media-icons{
+	display:flex;
+	justify-content:flex-start;
 }
-
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+.media-icons{
+	justify-content:flex-end;
 }
-
-.logo-details {
-  display: flex;
-  align-items: center;
+.box{
+	max-width:22%;
 }
-
-.logo_name {
-  font-size: 24px;
-  font-weight: bold;
+ 
+.link-boxes{
+	display:flex;
+	flex-direction:row;
 }
-
-.media-icons a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-right: 10px;
+.bottom-details{
+	background-color:#2c303a;
+	height:30px;
+	display:flex;
 }
-
-.link-boxes {
-  display: flex;
-  justify-content: space-between;
+.copy-right, .policy-terms{
+	width:40%;
+	margin:5px;
+	margin-left:10px;
+/* 	align-item:center; */
 }
-
-.box {
-  flex-basis: 50%;
+.policy-terms{
+	width:50%;
+	justify-content:flex-end;
 }
-
-h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
+a:link{
+	text-decoration:none;
+	color:white;
 }
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 5px;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none
